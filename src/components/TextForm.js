@@ -10,11 +10,14 @@ export default function TextForm(props) {
   const convertUpCase=()=>{
     let newText=text.toUpperCase();
     setText(newText)
+    props.showAlert('Converted to UpperCase','Sucess')
   }
 
   const convertLowCase=()=>{
     let newText=text.toLowerCase();
     setText(newText)
+    props.showAlert('Converted to LowerCase','Sucess')
+
   }
   const [text,setText] = useState();
 
