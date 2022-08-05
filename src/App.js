@@ -28,11 +28,20 @@ function App() {
         document.body.style.backgroundColor='#18053d'; 
         //document.body.style.backgroundColor
         showAlert('dark mode has been enable','success');
+        document.title='TextUtils - Dark Mode'
       }
       else{
         setMode('light');
         document.body.style.backgroundColor='white'; 
         showAlert('light mode has been enable','success');
+        document.title='TextUtils - Light Mode'
+        setInterval(() => {
+          document.title='TextUtils install now'
+        },1000 );
+
+        setInterval(() => {
+          document.title='TextUtils is amazing'
+        },15000 );
 
       }
     }
