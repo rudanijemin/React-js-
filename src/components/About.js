@@ -35,7 +35,7 @@ const toggleStyle =()=>{
 }
   return (
     <div className="container my-5" style={myStyle}>
-        <h1>About us</h1>
+        <h1>About</h1>
         <div className="accordion" id="accordionExample" style={myStyle} >
         <div className="accordion-item"style={myStyle}>
             <h2 className="accordion-header" id="headingOne" style={myStyle} >
